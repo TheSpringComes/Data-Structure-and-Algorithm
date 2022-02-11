@@ -75,7 +75,7 @@ void Dijkstra(Vertex s,PtrNode Graph)
 }
 int main()
 {
-	cin>>n>>m>>s;
+	cin>>n>>m>>s;//输入的是顶点的个数、边的个数、源点的下标
 	for(int i=0;i<=n;++i){
 		dist[i] = INF;
 		collected[i] = false;
